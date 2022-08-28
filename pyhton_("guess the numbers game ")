@@ -1,0 +1,21 @@
+"""Guess the numebrs """
+
+print ("guess any Number :")
+chocie=1
+guess =9
+number=18
+
+if chocie<=guess:
+    while chocie < guess:
+        no = int(input())
+        if no > number:
+            print("you Entered number is Greater ")
+        elif no < number:
+            print("you Entered number is Lowest ")
+        else:
+            print("you Won !!")
+
+elif chocie>=guess:
+    print("your choice're End !!")
+    exit
+
